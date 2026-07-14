@@ -1,0 +1,12 @@
+# Ignore compiled binaries in task1
+task1-process-threading/src/1_thread_creation
+task1-process-threading/src/2_race_condition
+task1-process-threading/src/3_synchronization
+task1-process-threading/src/4_deadlock
+task1-process-threading/src/5_deadlock_prevention
+task1-process-threading/src/6_scheduler
+
+# General
+*.o
+*.out
+.DS_Store
