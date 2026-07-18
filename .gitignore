@@ -6,6 +6,12 @@ task1-process-threading/src/4_deadlock
 task1-process-threading/src/5_deadlock_prevention
 task1-process-threading/src/6_scheduler
 
+# Ignore compiled binaries in task2
+task2-memory-management/src/1_paging_system
+task2-memory-management/src/2_fifo_replacement
+task2-memory-management/src/3_lru_replacement
+task2-memory-management/src/4_comparison
+
 # General
 *.o
 *.out
