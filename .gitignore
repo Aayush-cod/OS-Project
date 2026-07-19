@@ -12,6 +12,26 @@ task2-memory-management/src/2_fifo_replacement
 task2-memory-management/src/3_lru_replacement
 task2-memory-management/src/4_comparison
 
+# Ignore compiled binaries in task3
+task3-filesystem-security/src/1_authentication
+task3-filesystem-security/src/2_file_operations
+task3-filesystem-security/src/3_permissions
+task3-filesystem-security/src/4_encryption
+task3-filesystem-security/src/5_audit_logging
+task3-filesystem-security/src/6_integrated_system
+
+# Ignore runtime-generated data files (created by running task3 programs)
+task3-filesystem-security/src/users.txt
+task3-filesystem-security/src/sys_users.txt
+task3-filesystem-security/src/audit.log
+task3-filesystem-security/src/sys_audit.log
+task3-filesystem-security/src/*.txt.enc
+task3-filesystem-security/src/*.txt.dec
+task3-filesystem-security/src/*.txt.wrongkey
+task3-filesystem-security/src/salary.txt
+task3-filesystem-security/src/report.txt
+task3-filesystem-security/src/notes.txt
+
 # General
 *.o
 *.out
