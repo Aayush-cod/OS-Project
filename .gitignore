@@ -20,6 +20,16 @@ task3-filesystem-security/src/4_encryption
 task3-filesystem-security/src/5_audit_logging
 task3-filesystem-security/src/6_integrated_system
 
+# Ignore compiled binaries in task4
+task4-network-programming/src/1_server_basic
+task4-network-programming/src/1_client_basic
+task4-network-programming/src/3_server_concurrent
+task4-network-programming/src/3_client_concurrent
+task4-network-programming/src/4_server_secure
+task4-network-programming/src/4_client_secure
+task4-network-programming/src/6_server_final
+task4-network-programming/src/6_client_final
+
 # Ignore runtime-generated data files (created by running task3 programs)
 task3-filesystem-security/src/users.txt
 task3-filesystem-security/src/sys_users.txt
